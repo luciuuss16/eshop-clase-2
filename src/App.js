@@ -1,15 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/NavBar';
-import ItemListContainer from './contenedor/ItemListContainer';
+import Home from "./pages/Home"
 
-function App() {
-  return (
-    <header>
-      <Navbar />
-      <ItemListContainer />
-    </header>  
-  );
-}
+const App = () => {
+  return <Home />;
+};
 
 export default App;
