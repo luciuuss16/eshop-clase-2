@@ -16,7 +16,7 @@ const products = [
     brandId: 95,
     packingId: null,
     category: {
-      name: "Sin Alcohol",
+      name: "Sin Alcohol", 
       id: 9
     },
     brand: {
