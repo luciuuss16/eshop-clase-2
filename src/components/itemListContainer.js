@@ -2,7 +2,7 @@ import ItemList from './ItemList';
 import customFetch from "../utils/customFetch";
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { products } = require('../utils/products');
+import { products } from require('../utils/products');
 
 const ItemListContainer = () => {
     const [datos, setDatos] = useState([]);
