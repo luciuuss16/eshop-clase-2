@@ -1,7 +1,7 @@
-import { Button } from '@material-ui/core';
+import Button from '@mui/material/Button';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import ItemCount from './ItemCount';
+import ItemCount from './itemCount';
 import { DetailContainer, WrapperDetail, ImgContainer, ImageDetail, InfoContainer, Title, Desc, Price } from './styledComponents';
 
 const ItemDetail = ({ item }) => {

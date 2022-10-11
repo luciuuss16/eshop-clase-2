@@ -1,4 +1,6 @@
-import { DescriptionOutlined, InfoOutlined, LocalOfferOutlined } from '@material-ui/icons';
+import DescriptionOutlined from '@mui/icons-material/Description';
+import InfoOutlined from '@mui/icons-material/Info';
+import LocalOfferOutlined  from '@mui/icons-material/LocalOfferOutlined';
 import { Link } from 'react-router-dom';
 import { ProductContainer, Circle, Image, Info, Icon } from './styledComponents';
 

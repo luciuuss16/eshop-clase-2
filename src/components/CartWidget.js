@@ -1,5 +1,5 @@
-import { Badge } from "@material-ui/core";
-import { ShoppingCartOutlined } from "@material-ui/icons";
+import Badge from "@mui/material/Badge";
+import ShoppingCartOutlined from "@mui/material/Icon";
 
 const CartWidget = () => {
     return (

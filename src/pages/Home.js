@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Cart from "../components/Cart";
-import ItemDetailContainer from "../components/ItemDetailContainer";
-import ItemListContainer from "../components/ItemListContainer";
+import ItemDetailContainer from "../components/itemDetailContainer";
+import ItemListContainer from "../components/itemListContainer";
 import NavBar from "../components/NavBar";
 
 const Home = () => {

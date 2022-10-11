@@ -1,6 +1,6 @@
-import { AppBar } from "@material-ui/core";
+import AppBar from "@mui/material/AppBar";
 import { Link } from "react-router-dom";
-import CartWidget from "./CartWidget";
+import CartWidget from "../components/CartWidget";
 import { Wrapper, Logo, MenuItem, Left, Center, Right } from './styledComponents';
 
 const NavBar = () => {
