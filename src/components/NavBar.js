@@ -8,7 +8,7 @@ const NavBar = () => {
         <AppBar position="relative">
             <Wrapper>
                 <Left>
-                    <Link to='/' style={{textDecoration: "none", color: "white"}}><Logo>COD.ER $HO.P</Logo></Link>
+                    <Link to='/' style={{textDecoration: "none", color: "white"}}><Logo>BEBIDAS SHOP</Logo></Link>
                 </Left>
                 <Center>
                     <Link to='/category/9' style={{textDecoration: "none", color: "white"}}><MenuItem>Sin Alcohol</MenuItem></Link>

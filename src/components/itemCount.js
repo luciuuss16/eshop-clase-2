@@ -1,10 +1,8 @@
 import Button  from '@mui/material/Button';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
-// import { Add, Remove } from '@mui/material/Icon';
 import { useEffect, useState } from 'react';
 import { ProductAmountContainer, ProductAmount } from './styledComponents';
-
 const ItemCount = ({ stock = 0, initial = 1,  onAdd }) => {
     const [count, setCount] = useState(0);
 
@@ -37,5 +35,4 @@ const ItemCount = ({ stock = 0, initial = 1,  onAdd }) => {
         </ProductAmountContainer>
     );
 }
-
 export default ItemCount;

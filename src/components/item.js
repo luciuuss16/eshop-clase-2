@@ -3,7 +3,6 @@ import InfoOutlined from '@mui/icons-material/Info';
 import LocalOfferOutlined  from '@mui/icons-material/LocalOfferOutlined';
 import { Link } from 'react-router-dom';
 import { ProductContainer, Circle, Image, Info, Icon } from './styledComponents';
-
 const Item = ({ id, title, stock, price, pictureUrl }) => {
     return (
         <ProductContainer>
@@ -23,5 +22,4 @@ const Item = ({ id, title, stock, price, pictureUrl }) => {
         </ProductContainer>
     );
 }
-
 export default Item;

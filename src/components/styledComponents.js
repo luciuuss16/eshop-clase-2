@@ -1,6 +1,5 @@
  import styled from "styled-components";
 
-//NavBar
 const Wrapper = styled.div`
     padding: 10px 20px;
     display: flex;
@@ -38,8 +37,6 @@ const MenuItem = styled.div`
     margin-left: 25px;
 `;
 
-
-//ItemCount
 const ProductAmountContainer = styled.div`
     display: flex;
     align-items: center;
@@ -51,8 +48,6 @@ const ProductAmount = styled.div`
     margin: 5px;
 `;
 
-
-//ItemList
 const ProductsContainer = styled.div`
     padding: 20px;
     display: flex;
@@ -60,7 +55,6 @@ const ProductsContainer = styled.div`
     justify-content: space-between;
 `;
 
-//Item
 const Info = styled.div`
     opacity: 0;
     width: 100%;
@@ -120,8 +114,6 @@ const Icon = styled.div`
     }
 `;
 
-
-//ItemDetail
 const DetailContainer = styled.div`
 `;
 

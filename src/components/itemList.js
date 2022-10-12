@@ -12,5 +12,4 @@ const ItemList = ({ items }) => {
         </ProductsContainer>
     );
 }
-
 export default ItemList;

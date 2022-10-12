@@ -18,5 +18,4 @@ const ItemDetailContainer = () => {
         <ItemDetail item={dato} />
     );
 }
-
 export default ItemDetailContainer;

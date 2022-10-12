@@ -1,6 +1,5 @@
 import Badge from "@mui/material/Badge";
 import ShoppingCartOutlined from "@mui/material/Icon";
-
 const CartWidget = () => {
     return (
         <Badge badgeContent={4} color="secondary">
@@ -8,5 +7,4 @@ const CartWidget = () => {
         </Badge>
     );
 }
-
 export default CartWidget;

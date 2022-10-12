@@ -4,7 +4,7 @@ const products = [
     name: "Agua Con Gas 1,5 lts",
     stock: 0,
     cost: 140,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
+    description: "Agua mineral de manantial, con gas.",
     capacity: 1500,
     image: [
       "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp"
@@ -30,7 +30,7 @@ const products = [
     name: "Agua Sin Gas 1,5 lts",
     stock: 100,
     cost: 140,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
+    description: "Agua mineral de manantial, sin gas.",
     capacity: 1500,
     image: [
       "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706076.webp"
@@ -243,7 +243,7 @@ const products = [
     name: "Amareto Disaronno 700 ml",
     stock: 100,
     cost: 3150,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
+    description: "La personalidad de Disaronno cautiva los sentidos con una intensidad tal que lo convierte en el licor Italiano preferido del mundo.",
     capacity: 700,
     image: [
       "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316082/BodegasDelSur/01_1600449560.jpg"

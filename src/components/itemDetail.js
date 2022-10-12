@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ItemCount from './itemCount';
 import { DetailContainer, WrapperDetail, ImgContainer, ImageDetail, InfoContainer, Title, Desc, Price } from './styledComponents';
-
 const ItemDetail = ({ item }) => {
     const [itemCount, setItemCount] = useState(0);
 
@@ -40,5 +39,4 @@ const ItemDetail = ({ item }) => {
         </>
     );
 }
-
 export default ItemDetail;
